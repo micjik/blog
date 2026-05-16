@@ -1,0 +1,15 @@
+{% extends "index.html"%}
+
+{% load static %}
+{% block css_files %}
+ {% endblock %}
+
+
+{% block title %}
+   blog
+{% endblock %}
+<link rel="stylesheet" href="{% static 'blog/blog.css' %}">
+
+{% block content %}
+  <h1>Blog</h1>
+{% endblock %}
