@@ -1,10 +1,11 @@
-{% extends "index.html"%}
+{% extends "base.html"%}
 {% load static%}
 
 {% block css_files %}
  {% endblock %}
 
 {% block title %}
+{% include "blog/includes/navbar.html" %}
    blog detail
 
 {% endblock %}

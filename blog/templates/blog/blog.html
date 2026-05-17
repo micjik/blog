@@ -1,4 +1,4 @@
-{% extends "index.html"%}
+{% extends "base.html"%}
 
 {% load static %}
 {% block css_files %}
@@ -11,5 +11,6 @@
 <link rel="stylesheet" href="{% static 'blog/blog.css' %}">
 
 {% block content %}
+{% include "blog/includes/navbar.html" %}
   <h1>Blog</h1>
 {% endblock %}
